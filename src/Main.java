@@ -10,6 +10,7 @@ public class Main {
         person.add(new Person("Игнатьев", "Игорь", 23));
         person.add(new Person("Потрясов", "Антон", 38));
         person.add(new Person("Ануфреев", "Олег", 13));
+        
 
         Comparator<Person> comparator = (o1, o2) -> {
             int lengt1 = o1.getSurname().split("\\P{IsAlphabetic}+").length;
